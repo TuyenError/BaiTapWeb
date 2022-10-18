@@ -1,0 +1,43 @@
+    h3 {
+        Font-Size: 25px;
+        Font-family: Arial;
+        Color: red;
+        text-align: center;
+
+    }
+
+    th {
+        Font-Size: 16px;
+        Color: Blue;
+        background: yellow;
+    }
+
+    td {
+        Font-Size: 15px;
+        Color: White;
+        background: blueviolet;
+    }
+
+    table {
+        border: 8px double
+    }
+
+    th,
+    td {
+        border: 2px solid black;
+    }
+
+
+    /* ---------------------- */
+                a {
+                    color: yellow;
+                    text-decoration: none;
+                }
+        
+                a.whitewine {
+                    color: blueviolet;
+                }
+        
+                a.redwine {
+                    color: red;
+                }
