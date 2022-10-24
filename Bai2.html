@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    #background {
+        background: blueviolet;
+    }
+
+    #background2 {
+        background-color: black;
+        color: white;
+        height: 70px;
+        padding-left: 10px;
+    }
+
+    #background3 {
+        background-color: green;
+    }
+
+    .background4 {
+        background: red;
+        height: 135px;
+        width: 170px;
+        color: white;
+        position: fixed;
+        right: 0;
+        top: 0;
+    }
+</style>
+
+<body>
+    <div id="background">
+        <div id="background1">id=div-before</div>
+        <div id="background2">id=div-1
+            <div id="background3">id=div-1-b</div>
+            <div id="background3">bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bli bli bli bli bli bli
+                bli bli bli bli bli bli bli bli bli bli bli bli </div>
+        </div>
+        <div id="background1">id=div-after</div>
+        <div class="background4">
+            <div>id=div=div-1-a</div>
+            <div>bla bla bla bla bla bla bla
+                bla bla bla bla bla bla bla bla bla
+                bli bli bli bli bli bli bli bli bli
+                bli bli bli bli bli bli bli bli bli bli bli bli bli bli bli </div>
+        </div>
+        <div></div>
+    </div>
+</body>
+
+</html>
