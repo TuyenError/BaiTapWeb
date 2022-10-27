@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Shop</title>
+    
+</head>
+<style>
+    .container {
+    display: grid;
+    grid-template-columns: 13% 87%;
+    background-color: rgb(146, 75, 53);
+}
+
+.logo2 h1 {
+    color: white;
+    font-size: 70px;
+    margin-top: 0,5%;
+
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+    font-size: 200%;
+    font-weight: 900;
+}
+
+.menu li {
+    list-style: none;
+    display: inline;
+}
+
+.menu {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-content h2 {
+    text-align: left;
+    margin-top: 4%;
+    margin-bottom: -48px;
+}
+
+.right-content {
+    width: 100%;
+}
+
+.left-content {
+    margin-top: 20px;
+    width: 20%;
+}
+
+.left-content h2 {
+    text-align: center;
+}
+
+.category a {
+    text-align: center;
+    line-height: 2rem;
+    border: solid black 1px;
+}
+
+.category {
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    width: 100%;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 5% 10%;
+}
+
+.product {
+    border: solid black 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+}
+
+.product-name {
+    font-size: 30px;
+}
+
+.product-type {
+    font-size: 20px;
+}
+
+.product-add {
+    font-size: 20px;
+}
+</style>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="Hình ảnh/logo.png">
+            </div>
+            <div class="logo2">
+                <h1>Tuyến Error</h1>
+            </div>
+        </div>
+        <div class="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Site Map</a></li>
+            <li><a href="">Contact</a></li>
+        </div>
+    </header>
+    <div class="content">
+        <div class="left-content">
+            <h2>Category</h2>
+            <div class="category">
+                <a href="">Menu item 1</a>
+                <a href="">Menu item 2</a>
+                <a href="">Menu item 3</a>
+                <a href="">Menu item 4</a>
+                <a href="">Menu item 5</a>
+                <a href="">Menu item 6</a>
+            </div>
+        </div>
+        <div class="right-content">
+            <h2>Products:</h2>
+            <div class="products">
+                <div class="product">
+                    <div class="product-name">Canon 80D (body)</div>
+                    <img src="Hình ảnh/cannon 80D.PNG" alt="">
+                    <div class="product-type">MÁY ẢNH CANON</div>
+                    <div class="button-add"><a href="#">Add to cart</a></div>
+                </div>
+                <div class="product">
+                    <div class="product-name">Canon 850D (body)</div>
+                    <img src="Hình ảnh/canon850d.png" alt="">
+                    <div class="product-type">MÁY ẢNH CANON</div>
+                    <div class="button-add"><a href="#">Add to cart</a></div>
+                </div>
+                <div class="product">
+                    <div class="product-name">Fujifilm X-T20</div>
+                    <img src="Hình ảnh/Fujifilm X-T20.png" alt="">
+                    <div class="product-type">MÁY ẢNH FUJIFILM</div>
+                    <div class="button-add"><a href="#">Add to cart</a></div>
+                </div>
+                <div class="product">
+                    <div class="product-name">Fujifilm X-A7 (Body)</div>
+                    <img src="Hình ảnh/Fujifilm.PNG" alt="">
+                    <div class="product-type">MÁY ẢNH FUJIFILM</div>
+                    <div class="button-add"><a href="#">Add to cart</a></div>
+                </div>
+                <div class="product">
+                    <div class="product-name">Sony A7II (Body)</div>
+                    <img src="Hình ảnh/sonya72.png" alt="">
+                    <div class="product-type">MÁY ẢNH SONY</div>
+                    <div class="button-add"><a href="#">Add to cart</a></div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
