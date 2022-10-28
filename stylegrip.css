@@ -1,0 +1,41 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    background-color: rgb(146, 75, 53);
+    }
+  /* .container {
+      display: grid;
+      grid-template-columns: 13% 87%;
+      background-color: rgb(146, 75, 53);
+  } */
+
+  .logo h1 {
+    color: white;
+    font-size: 70px;
+    margin-top: 0, 5%;
+    padding: 10px;
+
+  }
+
+.logo1 {
+      width: 200px;
+      height: 200px;
+      padding: 10px;
+        }
+.Menu {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    list-style: none;
+    display: inline;
+}
+
+.a {
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+    font-size: 200%;
+    font-weight: 900;
+    display: inline;
+}
