@@ -27,7 +27,7 @@
         height: 200px;
     }
 
-    .menu li a {
+    .Menu li a {
         color: white;
         text-decoration: none;
         margin: 30px;
@@ -35,12 +35,12 @@
         font-weight: 900;
     }
 
-    .menu li {
+    .Menu li {
         list-style: none;
         display: inline;
     }
 
-    .menu {
+    .Menu {
         background-color: black;
         width: 100%;
         height: 50px;
@@ -116,6 +116,26 @@
     .product-add {
         font-size: 20px;
     }
+    .button-add{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    background-color: rgb(228, 218, 218);
+    border: solid black 2px;
+    margin:0 10%;
+    display: flex;
+    justify-content: center;
+    }
+    .button-add:a{
+        transform: scale(1.1);
+        border: dotted black 2px;
+    }
+    footer{
+        text-align: center;
+    }
+    footer a{
+        padding:0 1%;
+    }
 </style>
 
 <body>
@@ -156,30 +176,35 @@
                     <div class="product-name">Canon 80D (body)</div>
                     <img src="Hình ảnh/cannon 80D.PNG" alt="">
                     <div class="product-type">MÁY ẢNH CANON</div>
+                    <div class="product-price">$12376</div>
                     <div class="button-add"><a href="#">Add to cart</a></div>
                 </div>
                 <div class="product">
                     <div class="product-name">Canon 850D (body)</div>
                     <img src="Hình ảnh/canon850d.png" alt="">
                     <div class="product-type">MÁY ẢNH CANON</div>
+                    <div class="product-price">$12376</div>
                     <div class="button-add"><a href="#">Add to cart</a></div>
                 </div>
                 <div class="product">
                     <div class="product-name">Fujifilm X-T20</div>
                     <img src="Hình ảnh/Fujifilm X-T20.png" alt="">
                     <div class="product-type">MÁY ẢNH FUJIFILM</div>
+                    <div class="product-price">$12376</div>
                     <div class="button-add"><a href="#">Add to cart</a></div>
                 </div>
                 <div class="product">
                     <div class="product-name">Fujifilm X-A7 (Body)</div>
                     <img src="Hình ảnh/Fujifilm.PNG" alt="">
                     <div class="product-type">MÁY ẢNH FUJIFILM</div>
+                    <div class="product-price">$12376</div>
                     <div class="button-add"><a href="#">Add to cart</a></div>
                 </div>
                 <div class="product">
                     <div class="product-name">Sony A7II (Body)</div>
                     <img src="Hình ảnh/sonya72.png" alt="">
                     <div class="product-type">MÁY ẢNH SONY</div>
+                    <div class="product-price">$12376</div>
                     <div class="button-add"><a href="#">Add to cart</a></div>
                 </div>
 
@@ -190,5 +215,8 @@
     </div>
 
 </body>
-
+<footer>
+    <p>Copyright <i class="fa fa-copyright"></i> 2022 PasserellesNumeriques.org. All rights reserved.</p>
+    <div><a href="">Products</a>|<a href="">Services</a>|<a href="">About Us</a></div>
+</footer>
 </html>
